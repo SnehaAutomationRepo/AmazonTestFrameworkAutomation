@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36" started-at="2020-04-17T23:28:31Z" finished-at="2020-04-17T23:28:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36" started-at="2020-04-17T23:28:31Z" finished-at="2020-04-17T23:28:31Z">
+      <class name="amazon.qa.testcases.CreateAccountPageTest">
+        <test-method status="FAIL" signature="CreateAccTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:amazon.qa.testcases.CreateAccountPageTest@1686d1f]" name="CreateAccTest" duration-ms="0" started-at="2020-04-17T16:28:31Z" data-provider="getAmazonTestData" finished-at="2020-04-17T16:28:31Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.util.Map amazon.qa.testcases.CreateAccountPageTest.getAmazonTestData() must return either Object[][] or Iterator<Object>[], not interface java.util.Map]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.util.Map amazon.qa.testcases.CreateAccountPageTest.getAmazonTestData() must return either Object[][] or Iterator<Object>[], not interface java.util.Map
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccTest -->
+      </class> <!-- amazon.qa.testcases.CreateAccountPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
