@@ -1,7 +1,8 @@
 amazon\qa\pages\SignInPage.class
-amazon\qa\pages\CreateAccountPage.class
+amazon\qa\util\webTools.class
 amazon\qa\pages\GiftCardsPage.class
 amazon\qa\pages\UserAccountPage.class
+amazon\qa\pages\CreateAccountPage.class
 amazon\qa\ExtentReportListener\ExtentReporterNG.class
 amazon\qa\pages\HomePage.class
 amazon\qa\pages\pwdSignPage.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="3" name="TestSuite" time="214.361" errors="0" skipped="2">
+<testsuite tests="7" failures="2" name="TestSuite" time="5.951" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="testnew"/>
@@ -12,7 +12,7 @@
     <property name="POM_ARTIFACTID" value="AmazonProj"/>
     <property name="os.name" value="Windows 7"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_161\classes"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -28,8 +28,8 @@
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="testnew"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/testnew/2/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/testnew/3/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_161\bin"/>
     <property name="LOCALAPPDATA" value="C:\Users\sneha\AppData\Local"/>
     <property name="java.version" value="1.8.0_161"/>
@@ -40,7 +40,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jre1.8.0_161\lib\endorsed"/>
-    <property name="BUILD_ID" value="2"/>
+    <property name="BUILD_ID" value="3"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -56,7 +56,7 @@
     <property name="java.home" value="C:\Program Files (x86)\Java\jre1.8.0_161"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="os.version" value="6.1"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/testnew/2/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/testnew/3/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Users\sneha\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
@@ -79,7 +79,7 @@
     <property name="POM_GROUPID" value="AmazonPack"/>
     <property name="user.home" value="C:\Users\sneha"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-testnew-2"/>
+    <property name="BUILD_TAG" value="jenkins-testnew-3"/>
     <property name="JENKINS_SERVER_COOKIE" value="2d891f92a9608007"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -87,14 +87,14 @@
     <property name="USERPROFILE" value="C:\Users\sneha"/>
     <property name="CLASSPATH" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\sneha\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\apache-maven-3.5.3\bin;C:\apache-ant-1.10.3\bin;C:\Program Files\Git\cmd;C:\Users\sneha\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\sneha\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Users\sneha\AppData\Local\Android\Sdk\tools\bin;C:\Users\sneha\AppData\Local\Android\Sdk\tools;C:\Users\sneha\AppData\Local\Android\Sdk\platform-tools;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\apache-maven-3.5.3\bin;C:\apache-ant-1.10.3\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\sneha\AppData\Local\GitHubDesktop\bin;C:\Users\sneha\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="APPDATA" value="C:\Users\sneha\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Users\sneha\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
     <property name="java.class.path" value="C:\Users\sneha\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Users\sneha\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.5.2.jar;C:\Users\sneha\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\sneha\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\sneha\.jenkins\war\WEB-INF\lib\remoting-3.27.jar C:\Users\sneha\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\sneha\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 60321"/>
-    <property name="Path" value="C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\apache-maven-3.5.3\bin;C:\apache-ant-1.10.3\bin;C:\Program Files\Git\cmd;C:\Users\sneha\AppData\Local\GitHubDesktop\bin"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\sneha\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\sneha\.jenkins\war\WEB-INF\lib\remoting-3.27.jar C:\Users\sneha\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\sneha\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 55729"/>
+    <property name="Path" value="C:\Users\sneha\AppData\Local\Android\Sdk\tools\bin;C:\Users\sneha\AppData\Local\Android\Sdk\tools;C:\Users\sneha\AppData\Local\Android\Sdk\platform-tools;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\apache-maven-3.5.3\bin;C:\apache-ant-1.10.3\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\sneha\AppData\Local\GitHubDesktop\bin;C:\Users\sneha\AppData\Local\Programs\Microsoft VS Code\bin"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
@@ -108,7 +108,7 @@
     <property name="HUDSON_HOME" value="C:\Users\sneha\.jenkins"/>
     <property name="PATH+MAVEN" value="C:\Users\sneha\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/testnew/2/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/testnew/3/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="x86"/>
@@ -123,7 +123,8 @@
 "/>
     <property name="MAVEN_HOME" value="C:\Users\sneha\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
-    <property name="BUILD_NUMBER" value="2"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="ANDROID_HOME" value="C:\Users\sneha\AppData\Local\Android\Sdk"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="3a09"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
@@ -137,31 +138,104 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
   </properties>
-  <testcase classname="amazon.qa.testcases.CreateAccountPageTest" name="CreateAccTest" time="1.271"/>
-  <testcase classname="amazon.qa.testcases.CreateAccountPageTest" name="CreateAccTest" time="1.233"/>
-  <testcase classname="amazon.qa.testcases.CreateAccountPageTest" name="CreateAccTest" time="1.357"/>
-  <testcase classname="amazon.qa.testcases.EmailSignInPageTest" name="emailTest" time="10.48">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;continue&apos;]&quot;}
-  (Session info: chrome=69.0.3497.100)
+  <testcase classname="amazon.qa.testcases.CreateAccountPageTest" name="CreateAccTest" time="0.7">
+    <failure message="
+Data Provider public java.util.Map amazon.qa.testcases.CreateAccountPageTest.getAmazonTestData() must return either Object[][] or Iterator&lt;Object&gt;[], not interface java.util.Map" type="org.testng.TestNGException">org.testng.TestNGException: 
+Data Provider public java.util.Map amazon.qa.testcases.CreateAccountPageTest.getAmazonTestData() must return either Object[][] or Iterator&lt;Object&gt;[], not interface java.util.Map
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@55e4af
+</system-out>
+    <system-err>[Utils] [ERROR] [Error] org.testng.TestNGException: 
+Data Provider public java.util.Map amazon.qa.testcases.CreateAccountPageTest.getAmazonTestData() must return either Object[][] or Iterator&amp;lt;Object&amp;gt;[], not interface java.util.Map
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+</system-err>
+  </testcase>
+  <testcase classname="amazon.qa.testcases.EmailSignInPageTest" name="emailTest" time="0.722"/>
+  <testcase classname="amazon.qa.testcases.HomePageTest" name="AmazonLogoTest" time="0.138"/>
+  <testcase classname="amazon.qa.testcases.PwdSignInPageTest" name="pwdTest" time="0.168"/>
+  <testcase classname="amazon.qa.testcases.UserAccountPageTest" name="UserAccntTest" time="2.628"/>
+  <testcase classname="amazon.qa.testcases.EmailSignInPageTest" name="createAccountPageTest" time="0.48">
+    <failure message="no alert open
+  (Session info: chrome=84.0.4147.105)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;SNEHA-PC&apos;, ip: &apos;192.168.111.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+System info: host: &apos;SNEHA-PC&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sneha\AppData\Local\Temp\scoped_dir7084_13432}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c1cda1cf70ec46035a4f17b0ab1453e
-*** Element info: {Using=xpath, value=//span[@id=&apos;continue&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;continue&apos;]&quot;}
-  (Session info: chrome=69.0.3497.100)
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sneha\AppData\Local\Temp\scoped_dir8996_11795}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.105, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 51ab4c77bc635a6a4f63350f6cb700d7" type="org.openqa.selenium.NoAlertPresentException">org.openqa.selenium.NoAlertPresentException: no alert open
+  (Session info: chrome=84.0.4147.105)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;SNEHA-PC&apos;, ip: &apos;192.168.111.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+System info: host: &apos;SNEHA-PC&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sneha\AppData\Local\Temp\scoped_dir7084_13432}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c1cda1cf70ec46035a4f17b0ab1453e
-*** Element info: {Using=xpath, value=//span[@id=&apos;continue&apos;]}
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sneha\AppData\Local\Temp\scoped_dir8996_11795}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.105, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 51ab4c77bc635a6a4f63350f6cb700d7
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -174,217 +248,27 @@ Session ID: 9c1cda1cf70ec46035a4f17b0ab1453e
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:189)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at amazon.qa.pages.SignInPage.email(SignInPage.java:29)
-	at amazon.qa.testcases.EmailSignInPageTest.emailTest(EmailSignInPageTest.java:34)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1029)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.alert(EventFiringWebDriver.java:630)
+	at amazon.qa.testcases.EmailSignInPageTest.createAccountPageTest(EmailSignInPageTest.java:43)
 </failure>
     <system-out>Before navigating to: &apos;https://www.amazon.com&apos;
 Navigated to:&apos;https://www.amazon.com&apos;
-Trying to find Element By : By.xpath: //span[text()=&apos;Hello. Sign in&apos;]
-Found Element By : By.xpath: //span[text()=&apos;Hello. Sign in&apos;]
-Trying to find Element By : By.xpath: //div[@id=&apos;nav-flyout-ya-signin&apos;]//a[@class=&apos;nav-action-button&apos;]//span[text()=&apos;Sign in&apos;]
-Found Element By : By.xpath: //div[@id=&apos;nav-flyout-ya-signin&apos;]//a[@class=&apos;nav-action-button&apos;]//span[text()=&apos;Sign in&apos;]
-Trying to click on: [[ChromeDriver: chrome on XP (9c1cda1cf70ec46035a4f17b0ab1453e)] -&gt; xpath: //div[@id=&apos;nav-flyout-ya-signin&apos;]//a[@class=&apos;nav-action-button&apos;]//span[text()=&apos;Sign in&apos;]]
-Clicked on: [[ChromeDriver: chrome on XP (9c1cda1cf70ec46035a4f17b0ab1453e)] -&gt; xpath: //div[@id=&apos;nav-flyout-ya-signin&apos;]//a[@class=&apos;nav-action-button&apos;]//span[text()=&apos;Sign in&apos;]]
-Trying to find Element By : By.id: ap_email
-Found Element By : By.id: ap_email
-Trying to find Element By : By.xpath: //span[@id=&apos;continue&apos;]
-Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;continue&apos;]&quot;}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;SNEHA-PC&apos;, ip: &apos;192.168.111.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sneha\AppData\Local\Temp\scoped_dir7084_13432}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 9c1cda1cf70ec46035a4f17b0ab1453e
-*** Element info: {Using=xpath, value=//span[@id=&apos;continue&apos;]}
+Trying to find Element By : By.cssSelector: a[id=&apos;nav-link-accountList&apos;]
+Found Element By : By.cssSelector: a[id=&apos;nav-link-accountList&apos;]
+Trying to click on: [[ChromeDriver: chrome on XP (51ab4c77bc635a6a4f63350f6cb700d7)] -&gt; css selector: a[id=&apos;nav-link-accountList&apos;]]
+Clicked on: [[ChromeDriver: chrome on XP (51ab4c77bc635a6a4f63350f6cb700d7)] -&gt; css selector: a[id=&apos;nav-link-accountList&apos;]]
+Trying to find Element By : By.id: createAccountSubmit
+Found Element By : By.id: createAccountSubmit
+Trying to click on: [[ChromeDriver: chrome on XP (51ab4c77bc635a6a4f63350f6cb700d7)] -&gt; id: createAccountSubmit]
+Clicked on: [[ChromeDriver: chrome on XP (51ab4c77bc635a6a4f63350f6cb700d7)] -&gt; id: createAccountSubmit]
 </system-out>
-    <system-err>Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 26657
+    <system-err>Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 40613
 Only local connections are allowed.
-Oct 22, 2018 4:10:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 10, 2020 4:10:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 </system-err>
   </testcase>
-  <testcase classname="amazon.qa.testcases.HomePageTest" name="AmazonLogoTest" time="0.065"/>
-  <testcase classname="amazon.qa.testcases.PwdSignInPageTest" name="setup" time="34.971">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;continue&apos;]&quot;}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;SNEHA-PC&apos;, ip: &apos;192.168.111.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sneha\AppData\Local\Temp\scoped_dir8064_24873}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 56d89261b888bd50eb0260f51a09195f
-*** Element info: {Using=xpath, value=//span[@id=&apos;continue&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;continue&apos;]&quot;}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;SNEHA-PC&apos;, ip: &apos;192.168.111.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sneha\AppData\Local\Temp\scoped_dir8064_24873}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 56d89261b888bd50eb0260f51a09195f
-*** Element info: {Using=xpath, value=//span[@id=&apos;continue&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:189)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at amazon.qa.pages.SignInPage.email(SignInPage.java:29)
-	at amazon.qa.testcases.PwdSignInPageTest.setup(PwdSignInPageTest.java:29)
-</failure>
-    <system-out>Before navigating to: &apos;https://www.amazon.com&apos;
-Navigated to:&apos;https://www.amazon.com&apos;
-Trying to find Element By : By.xpath: //span[text()=&apos;Hello. Sign in&apos;]
-Found Element By : By.xpath: //span[text()=&apos;Hello. Sign in&apos;]
-Trying to find Element By : By.xpath: //div[@id=&apos;nav-flyout-ya-signin&apos;]//a[@class=&apos;nav-action-button&apos;]//span[text()=&apos;Sign in&apos;]
-Found Element By : By.xpath: //div[@id=&apos;nav-flyout-ya-signin&apos;]//a[@class=&apos;nav-action-button&apos;]//span[text()=&apos;Sign in&apos;]
-Trying to click on: [[ChromeDriver: chrome on XP (56d89261b888bd50eb0260f51a09195f)] -&gt; xpath: //div[@id=&apos;nav-flyout-ya-signin&apos;]//a[@class=&apos;nav-action-button&apos;]//span[text()=&apos;Sign in&apos;]]
-Clicked on: [[ChromeDriver: chrome on XP (56d89261b888bd50eb0260f51a09195f)] -&gt; xpath: //div[@id=&apos;nav-flyout-ya-signin&apos;]//a[@class=&apos;nav-action-button&apos;]//span[text()=&apos;Sign in&apos;]]
-Trying to find Element By : By.id: ap_email
-Found Element By : By.id: ap_email
-Trying to find Element By : By.xpath: //span[@id=&apos;continue&apos;]
-Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;continue&apos;]&quot;}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;SNEHA-PC&apos;, ip: &apos;192.168.111.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sneha\AppData\Local\Temp\scoped_dir8064_24873}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 56d89261b888bd50eb0260f51a09195f
-*** Element info: {Using=xpath, value=//span[@id=&apos;continue&apos;]}
-</system-out>
-    <system-err>Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 30902
-Only local connections are allowed.
-Oct 22, 2018 4:10:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-</system-err>
-  </testcase>
-  <testcase classname="amazon.qa.testcases.PwdSignInPageTest" name="pwdTest" time="34.972">
-    <skipped/>
-  </testcase>
-  <testcase classname="amazon.qa.testcases.UserAccountPageTest" name="setup" time="61.851">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;continue&apos;]&quot;}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;SNEHA-PC&apos;, ip: &apos;192.168.111.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sneha\AppData\Local\Temp\scoped_dir9968_32174}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7ddccb8ab9c6a52899d8b63b805b7dcf
-*** Element info: {Using=xpath, value=//span[@id=&apos;continue&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;continue&apos;]&quot;}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;SNEHA-PC&apos;, ip: &apos;192.168.111.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sneha\AppData\Local\Temp\scoped_dir9968_32174}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7ddccb8ab9c6a52899d8b63b805b7dcf
-*** Element info: {Using=xpath, value=//span[@id=&apos;continue&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:189)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at amazon.qa.pages.SignInPage.email(SignInPage.java:29)
-	at amazon.qa.testcases.UserAccountPageTest.setup(UserAccountPageTest.java:34)
-</failure>
-    <system-out>Before navigating to: &apos;https://www.amazon.com&apos;
-Navigated to:&apos;https://www.amazon.com&apos;
-Trying to find Element By : By.xpath: //span[text()=&apos;Hello. Sign in&apos;]
-Found Element By : By.xpath: //span[text()=&apos;Hello. Sign in&apos;]
-Trying to find Element By : By.xpath: //div[@id=&apos;nav-flyout-ya-signin&apos;]//a[@class=&apos;nav-action-button&apos;]//span[text()=&apos;Sign in&apos;]
-Found Element By : By.xpath: //div[@id=&apos;nav-flyout-ya-signin&apos;]//a[@class=&apos;nav-action-button&apos;]//span[text()=&apos;Sign in&apos;]
-Trying to click on: [[ChromeDriver: chrome on XP (7ddccb8ab9c6a52899d8b63b805b7dcf)] -&gt; xpath: //div[@id=&apos;nav-flyout-ya-signin&apos;]//a[@class=&apos;nav-action-button&apos;]//span[text()=&apos;Sign in&apos;]]
-Clicked on: [[ChromeDriver: chrome on XP (7ddccb8ab9c6a52899d8b63b805b7dcf)] -&gt; xpath: //div[@id=&apos;nav-flyout-ya-signin&apos;]//a[@class=&apos;nav-action-button&apos;]//span[text()=&apos;Sign in&apos;]]
-Trying to find Element By : By.id: ap_email
-Found Element By : By.id: ap_email
-Trying to find Element By : By.xpath: //span[@id=&apos;continue&apos;]
-Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;continue&apos;]&quot;}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;SNEHA-PC&apos;, ip: &apos;192.168.111.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sneha\AppData\Local\Temp\scoped_dir9968_32174}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7ddccb8ab9c6a52899d8b63b805b7dcf
-*** Element info: {Using=xpath, value=//span[@id=&apos;continue&apos;]}
-</system-out>
-    <system-err>Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 40926
-Only local connections are allowed.
-Oct 22, 2018 4:11:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-</system-err>
-  </testcase>
-  <testcase classname="amazon.qa.testcases.UserAccountPageTest" name="UserAccntTest" time="61.851">
-    <skipped/>
-  </testcase>
-  <testcase classname="amazon.qa.testcases.EmailSignInPageTest" name="createAccountPageTest" time="0.455"/>
-  <testcase classname="amazon.qa.testcases.HomePageTest" name="SigninTest" time="3.637"/>
-  <testcase classname="amazon.qa.testcases.HomePageTest" name="GiftCardsTest" time="2.218"/>
+  <testcase classname="amazon.qa.testcases.HomePageTest" name="SigninTest" time="1.115"/>
 </testsuite>
